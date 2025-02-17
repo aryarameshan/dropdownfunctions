@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px black;
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    color: rgb(72, 72, 134);
+    font-size: 24px;
+}
+
+select, input, button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#inputValue
+{
+      color: black;
+}
+button {
+    background-color: rgb(81, 81, 129);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(77, 77, 118);
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+}
+
